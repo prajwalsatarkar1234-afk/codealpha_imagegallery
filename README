@@ -1,0 +1,60 @@
+# 📸 CodeAlpha Image Gallery
+
+This project is developed as part of the Frontend Development Internship at CodeAlpha.
+
+## 🚀 Project Overview
+
+The Image Gallery is a responsive web application built using HTML, CSS, and JavaScript.  
+It allows users to view images in a modern gallery layout with smooth transitions and navigation controls.
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## ✨ Features
+
+- Responsive image gallery layout
+- Hover zoom effects
+- Smooth transitions
+- Lightbox image preview
+- Next and Previous navigation buttons
+- Mobile-friendly design
+
+## 📂 Project Structure
+
+CodeAlpha_ImageGallery/
+│── index.html
+│── style.css
+│── script.js
+│── images/
+
+## 🎯 Internship Task
+
+Task 1: Image Gallery  
+Frontend Development Internship at CodeAlpha
+
+## 📱 Responsive Design
+
+The project is fully responsive and works on:
+- Desktop
+- Tablet
+- Mobile devices
+
+## 📌 Future Improvements
+
+- Add image categories and filters
+- Dark mode support
+- Automatic slideshow
+- Keyboard navigation
+
+## 👨‍💻 Developed By
+
+[Your Name]
+
+## 🔗 GitHub Repository
+
+Upload this project in a repository named:
+
+CodeAlpha_ImageGallery

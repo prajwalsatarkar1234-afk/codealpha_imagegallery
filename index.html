@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>MY ART GALLERY</h1>
+
+
+<div class="buttons">
+
+  <button onclick="filterSelection('all')">All</button>
+
+  <button onclick="filterSelection('sketch')">Sketch</button>
+
+  <button onclick="filterSelection('portrait')">Portrait</button>
+
+  <button onclick="filterSelection('art')">Art</button>
+
+</div>
+
+<div class="gallery">
+  <img src="images/krishna.png" alt="Krishna Drawing" class="sketch">
+  
+  <img src="images/chatrapati-shivaji-maharaja.png" alt="Chatrapati Shivaji Maharaj Portrait" class="portrait">
+  
+  <img src="images/ganesha.png" alt="Ganesha Art" class="art">
+  
+  <img src="images/rohit-sharma.png" alt="Rohit Sharma Portrait" class="portrait">
+
+  <img src="images/tiger.png" alt="Tiger Sketch" class="sketch">
+
+  <img src="images/thalapthy.png" alt="Thalapthy Art" class="art">  
+
+  <img src="images/radhekrishna.png" alt="Radhe Krishna Portrait" class="portrait">
+
+  <img src="images/lordganesha.png" alt="Lord Ganesha Sketch" class="sketch">
+
+  <img src="images/kaira.png" alt="Kaira Sketch" class="sketch">
+
+  <img src="images/shree-ram.png" alt="Shree Ram Art" class="art">
+
+  <img src="images/kantara.png" alt="Kantara Sketch" class="sketch">
+
+  <img src="images/ironman.png" alt="Iron Man Sketch" class="sketch">
+</div>
+<!-- Lightbox -->
+<div class="lightbox">
+  <span class="close">&times;</span>
+  <button class="prev">&#10094;</button>
+  <img class="lightbox-img" alt="Lightbox image">
+  <button class="next">&#10095;</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
